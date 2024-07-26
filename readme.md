@@ -1,16 +1,31 @@
-# Project Name
+# Bird or Drone?
 
- Add short description of project here > 
+(https://www.allaboutbirds.org/news/wp-content/uploads/2020/04/RBGull-Vyn-FI-1280x720.jpg)
 
-![add image descrition here](direct image link here)
+(https://media.cnn.com/api/v1/images/stellar/prod/dji-air-3-lead-image-cnnu.jpg?c=original)
+
+
+Using NVIDIA's Jetson Nano for its nueral-core processing and VS Code for its program, I made a convulitional neural network model that is able to differentiate between birds and drones. It can be deployed to any device via simple file transfer and differentiate between birds and drones from a simple video-frame-grab Python program. Its purpose is to help the U.S. Government identify and destroy reconnaissance from enemies more quickly and efficiently.
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+The training for the model occured via the constant modifying of weights on a confidence-prediction algorithm for the drones and birds. To run it, do the following:
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+YouTube Tutorial -- https://youtu.be/S_KyYnYmsHw
 
-[View a video explanation here](video link)
+Download into your device via a terminal the folders from this link:
+
+https://drive.google.com/drive/folders/1v6nPyS2BPKYyRJAVdyaNRX3azlSeuOa5?usp=sharing
+
+
+1. In your terminal, change directories into your Python file model's directory.
+2. Run this in terminal:
+
+NET=models/drone_or_bird_model
+DATASET=data/drone_or_bird_data
+
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt 
+
+$DATASET/path/to/image(s)/{image_file}
