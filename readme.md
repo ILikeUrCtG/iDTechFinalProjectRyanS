@@ -1,8 +1,8 @@
 # Bird or Drone?
 
-(https://www.allaboutbirds.org/news/wp-content/uploads/2020/04/RBGull-Vyn-FI-1280x720.jpg)
+https://www.allaboutbirds.org/news/wp-content/uploads/2020/04/RBGull-Vyn-FI-1280x720.jpg
 
-(https://media.cnn.com/api/v1/images/stellar/prod/dji-air-3-lead-image-cnnu.jpg?c=original)
+https://media.cnn.com/api/v1/images/stellar/prod/dji-air-3-lead-image-cnnu.jpg?c=original
 
 
 Using NVIDIA's Jetson Nano for its nueral-core processing and VS Code for its program, I made a convulitional neural network model that is able to differentiate between birds and drones. It can be deployed to any device via simple file transfer and differentiate between birds and drones from a simple video-frame-grab Python program. Its purpose is to help the U.S. Government identify and destroy reconnaissance from enemies more quickly and efficiently.
