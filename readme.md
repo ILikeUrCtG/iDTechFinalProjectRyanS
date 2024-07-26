@@ -1,6 +1,7 @@
 # Bird or Drone?
 
-[https://www.allaboutbirds.org/news/wp-content/uploads/2020/04/RBGull-Vyn-FI-1280x720.jpg](https://www.allaboutbirds.org/news/wp-content/uploads/2020/04/RBGull-Vyn-FI-1280x720.jpg)![image](https://github.com/user-attachments/assets/4b532215-e12a-4f5d-9ac2-3eeaee07a8d1)
+![image](https://github.com/user-attachments/assets/36aec9b8-4255-49e2-8b11-2ad3baa59335)
+
 
 ![image](https://github.com/user-attachments/assets/b16a877b-41c7-48af-a02e-b7f0f27eb8d6)
 
